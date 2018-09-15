@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const genres = require('./routes/v1/genres');
-const home = require('./routes/home');
+const genres = require('../routes/v1/genres');
+const home = require('../routes/home');
 
 app.use(express.json());
 app.use('/', home);
